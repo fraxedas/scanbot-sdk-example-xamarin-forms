@@ -36,13 +36,13 @@
     <OutputPath>bin\iPhone\Release</OutputPath>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <CodesignKey>iPhone Developer</CodesignKey>
-    <MtouchFloat32>true</MtouchFloat32>
+    <CodesignKey>Apple Distribution: Nikitech OÜ (QJSKWG4674)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchLink>SdkOnly</MtouchLink>
-    <MtouchArch>ARMv7, ARM64</MtouchArch>
+    <MtouchArch>ARM64</MtouchArch>
     <MtouchHttpClientHandler>HttpClientHandler</MtouchHttpClientHandler>
     <PlatformTarget>x86</PlatformTarget>
+    <CodesignProvision>scanbot font test</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>pdbonly</DebugType>
@@ -127,6 +127,19 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\iTunes ScanbotSDK@2x.png"/>
+
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-20@1x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-20@2x-1.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-20@2x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-20@3x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-29@1x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-29@2x-1.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-29@2x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-29@3x.png"/>
+    
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-76@2x.png"/>
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\ScanbotSDK-83.5@2x.png"/>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
